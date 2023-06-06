@@ -1,0 +1,75 @@
+body{
+    background-image: url(immagini/background.jpg);
+    background-size: cover;
+    font-family: 'Kanit', sans-serif;
+}
+
+.contenitore{
+    height: 850px;
+    width: 1200px;
+    background-color: rgba(0, 0, 0, 0.534);
+    position: relative;
+    top: 20px;
+    margin: auto;
+    border-radius: 20px;
+}
+ 
+.contenitore img{
+    width: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.posizione-contenuti-contenitore{
+    position: relative;
+    top: 10%;
+}
+
+header h1{
+    color: rgb(16, 221, 16);
+    text-align: center;
+}
+
+nav{
+    background-color: rgb(16, 221, 16);
+    text-align: center;
+    padding: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+main{
+    margin-left: 10%;
+    
+}
+
+.monopattini{
+    font-size: 35px;
+    color: white;
+}
+
+main div{
+    color: white;
+}
+
+#stato-carica{
+    height: 30px;
+    width: 350px;
+    background-color: rgb(255, 174, 0);
+    border-radius: 5px;
+}
+
+#stato-carica2{
+    height: 30px;
+    width: 580px;
+    background-color: rgb(16, 221, 16);
+    border-radius: 5px;
+}
+
+#stato-carica3{
+    height: 30px;
+    width: 200px;
+    background-color: rgb(179, 34, 34);
+    border-radius: 5px;
+}
